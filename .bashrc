@@ -143,7 +143,7 @@ alias freshclam='sudo freshclam'
 alias vi='nvim'
 alias svi='sudo vi'
 alias vis='nvim "+set si"'
-
+alias smci="sudo make clean install && rm *.o && rm *.orig"
 
 # Change directory aliases
 alias home='cd ~'
